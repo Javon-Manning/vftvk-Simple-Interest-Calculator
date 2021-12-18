@@ -4,7 +4,7 @@ function compute() {
     let principal = document.getElementById("amountOne").value 
     let interestRate = document.getElementById("rate").value
     let years = document.getElementById("noYears").value
-    let interestEarned = principal * interestRate * years *.01 + Number(principal);// this is still wrong
+    let interestEarned = principal * interestRate * years *.01 + Number(principal);
     let d = new Date();
     let n = d.getFullYear();
     let futureDate = Number(n) + Number(years); 
